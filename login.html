@@ -1,0 +1,46 @@
+<html xmlns:th="http://www.thymeleaf.org">
+    <head>
+        <link rel="stylesheet" href="estilo.css">
+        <link rel="shortcut icon" href="icon.ico">
+        <meta charset="UTF-8">
+        <title>Login</title>
+    </head>
+    <body>
+        <header>
+            <div class="logo_caixa">
+                <img src="LogoMV.jpg" alt="Moda Virtual" class="logo">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="chatbot.html">ChatBot</a></li>
+                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="cadastro.html">Cadastro</a></li>
+                       
+                    </ul>
+                </nav>
+            </div>
+        </header>
+        <h1 class="titulo-login">LOGIN</h1>
+
+        <main class="login">
+                <form action="respostaForm" method="post">
+                    <div class="textos_login">
+                        <label for="email">Email:</label>
+                        <input type="email" id="email" name="email">
+    
+                        <label for="senha">Senha:</label>
+                        <input type="password" id="senha" name="senha">
+    
+                        <button type="submit">Logar</button>
+                    </div>
+                </form>
+        </main>
+
+        <footer class="rodape">
+            <img src="LogoMV.png" alt="Moda Virtual" class="logo_footer">
+            <p class="copyright">&copy;Todos os direitos reservados para a Moda Virtual.</p>
+        </footer>
+
+
+    </body>
+</html>

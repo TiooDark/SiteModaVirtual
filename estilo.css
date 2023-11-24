@@ -1,0 +1,323 @@
+/*definindo a fonte do texto de todo o site, margens e bordas*/
+body{
+    font-family: "Arial";
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: black;
+}
+
+/**/
+header{
+    background-color: rgb(1, 0, 8);
+    padding: 20px;
+}
+
+.header_cadastro{
+    background-color: black;
+}
+
+nav{
+    position: absolute;
+    right: 0;
+    top: 70px;
+}
+nav li{
+    display: inline;
+    margin: 0 0 0 15px;
+
+}
+nav a{
+    color: rgb(92, 236, 164);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+/*Estilização do link quando o mouse estiver em cima*/
+nav a:hover{
+    color: rgb(75, 112, 77);
+    text-decoration: underline;
+
+}
+.logo_caixa{
+    position: relative;
+    width: 940px;
+    margin: auto;
+}
+.logo{
+    width: 12%;
+    padding-right: 20px;
+}
+.banner{
+    width: 100%;
+}
+/*Sobre a Moda Virtual*/
+.cabide{
+width: 100px;
+float: left;
+margin: 0 20px;
+color: white;
+}
+
+.titulo-MV{
+    text-align: center;
+    clear: left;
+    font-size: 2em;
+    padding-right: 170px;
+}
+
+.sobre_ModaVirtual{
+    background-color: black;
+    width: 100%;
+    padding-left: 80px;
+    color: white;
+}
+
+.titulo-padrao{
+    text-align: center;
+    font-size: 2em;
+    margin: 0;
+    padding-top: 20px;
+    color: white;
+}
+
+.legenda_nossoProjeto{
+    color: white;
+}
+
+.img_grafico{
+    width: 28%;
+}
+
+/*Estilização da sessão Nosso projeto*/
+.mapa{
+    text-align: center;
+    background: linear-gradient(black, rgb(75, 112, 77));
+}
+/*Estilização da sessão vantagens*/
+.beneficios{
+    background: linear-gradient( rgb(75, 112, 77), rgb(31, 30, 30));
+}
+.lista-beneficios{
+    list-style: "🤖";
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    padding-left: 35%;
+    color: white;
+}
+.lista-beneficios li{
+    line-height: 1.5;
+
+}
+.lista-beneficios li:before{
+    content: "✅";
+}
+.lista-beneficios li:first-child{
+    font-weight: bold;
+}
+.img_beneficios{
+    padding-top: 1%;
+    width: 170px;
+    box-shadow: 10px 10px 5px 0 rgb(255, 255, 255);
+    opacity: 1;
+    transition: 400ms;
+}
+img.beneficios:hover{
+    opacity: 0.7;
+}
+.conteudo-beneficios{
+    width: 100%;
+}
+.video{
+    text-align: center;
+}
+/*Estilização do Footer*/
+footer{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+    background: url("rodapePreto.jpeg");
+    padding: 40px 0 30px 0;
+
+}
+.copyright{
+    color: white;
+    font-size: 12px;
+    margin: 20px;
+}
+.logo_footer{
+    width: 5%;
+}
+
+
+.p{
+text-align: center;
+margin-top: 2%;
+}
+
+
+img{
+    width: 100px;
+}
+
+.tudo{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    text-align: center;
+    margin-top: 2%;
+}
+
+.rodape{
+    margin-top: 10%;
+}
+
+/*Estilização contato*/
+.input-padrao{
+    color: white;
+}
+
+.contatotitulo{
+    font-size: 28px;
+    color:  rgb(92, 236, 164);
+    list-style: "🤖";
+    font-weight: bold;
+    margin-top: 1%;
+}
+
+/*Estilo cadastro*/
+.titulo-cadastro{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 100;
+    padding-right: 18px;
+  }
+
+  .textos{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid rgb(75, 112, 77);
+    text-align: center;
+    transition: border-color 0.3s;
+}
+
+.textos_login{
+    text-align: center;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 20px;
+    border: 2px solid rgb(75, 112, 77);
+    text-align: center;
+    transition: border-color 0.3s;
+   
+}
+
+.textos label{
+    color: white;
+}
+.textos input{
+    display: block;
+    margin: 10px auto;
+}
+
+.titulo-login{
+    color: white;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    padding-top: 100;
+    padding-right: 18px;
+  }
+
+.login{
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
+    display: center;
+}
+
+.cadastro{
+    padding-top: 1%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Sobre chatbot*/
+.sobre_ChatBot{
+    padding-top: 1%;
+    background-color: black;
+    width: 100%;
+    padding-left: 80px;
+    color: white;
+    width: 60%;
+}
+
+.banner_chat{
+    width: 100%;
+}
+
+.img_machine{
+    padding-left: 5%;
+}
+
+.p{
+    color: white;
+}
+
+.chatbottitulo{
+    font-size: 28px;
+    color: rgb(92, 236, 164);
+    list-style: "🤖";
+    font-weight: bold;
+    margin-top: 1%;
+    padding-bottom: 1%;
+}
+
+/*Estilizando o contato*/
+.img_contato{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 160px;
+    box-shadow: 10px 10px 5px 0 rgb(17, 17, 17);
+    opacity: 1;
+    transition: 400ms;
+}
+
+.conteudo-contato{
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    width: 100%;
+}
+
+.lista-contato{
+    padding-top: 5%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    list-style: "📞";
+    width: 20%;
+    display: inline-block;
+    vertical-align: top;
+    color: white;
+}
+
+.lista-contato li{
+    line-height: 1.5;
+
+}
+
+.lista-contato li:first-child{
+    font-weight: bold;
+}
